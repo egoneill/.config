@@ -58,7 +58,7 @@ end, { remap = true })
   vim.keymap.set('x', '<C-Bslash>', '<Plug>(comment_toggle_linewise_visual)')
 
 -- Open help on word
-keymap("n", "<S-m>", ':execute "help " . expand("<cword>")<cr>', opts)
+-- keymap("n", "<S-m>", ':execute "help " . expand("<cword>")<cr>', opts)
 
 
 -- Fix 'Y', 'E'
@@ -98,6 +98,7 @@ keymap("n", "<BS>", ":bnext<CR>", opts)
 keymap("n", "<S-TAB>", ":bprevious<CR>", opts)
 
 
+
 -- Drag lines
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==", opts)
@@ -111,12 +112,11 @@ keymap("v", "<A-k>", ":m-2<CR>gv", opts)
 keymap("n", "<c-u>", "<c-u>zz", opts)
 keymap("n", "<c-d>", "<c-d>zz", opts)
 
-
 -- Horizontal lime movments --
-keymap("v", "<S-h>", "g^", opts)
-keymap("v", "<S-l>", "g$", opts)
-keymap("n", "<S-h>", "g^", opts)
-keymap("n", "<S-l>", "g$", opts)
+-- keymap("v", "<S-h>", "g^", opts)
+-- keymap("v", "<S-l>", "g$", opts)
+-- keymap("n", "<S-h>", "g^", opts)
+-- keymap("n", "<S-l>", "g$", opts)
 
 -- Indentation
 keymap("v", "<", "<gv", opts)

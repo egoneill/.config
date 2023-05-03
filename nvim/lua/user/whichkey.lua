@@ -95,6 +95,7 @@ local mappings = {
   ["v"] = { "<cmd>VimtexView<CR>"               , "view" },
   ["w"] = { "<cmd>wa!<CR>"                      , "write" },
   ["x"] = { ""                                  , "checkmark" },
+  ["h"] = { "gwip"                     , "wrap lines"},
   -- ["x"] = { "<cmd>lua require('autolist').invert_entry()<CR>"  , "checkmark" },
   a = {
     name = "ACTIONS",
